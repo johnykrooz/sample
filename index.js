@@ -5,7 +5,7 @@ import random from "random";
 
 const path = "./data.json";
 
-const markCommit = (x, y) => {
+const markCommit = (2, 3) => {
   const date = moment()
     .subtract(1, "y")
     .add(1, "d")
